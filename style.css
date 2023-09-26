@@ -1,0 +1,53 @@
+html {
+  font-size: 62.5%; /* 10px */
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 4rem 10rem;
+  font-size: 1.6rem;
+}
+
+.full-column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  max-width: 375px;
+  margin-bottom: 2rem; /* Add some margin between columns */
+  color: #fff; /* Add text color for better visibility */
+}
+
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  padding: 2rem;
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+  padding: 2rem;
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  padding: 2rem;
+}
+button{
+  border: 1px solid white;
+    background: white;
+    padding: 10px 25px;
+    font-size: 12px;
+    border-radius: 20px;
+}
+.button1 {color:hsl(31, 77%, 52%)} /* Yellow*/
+.button2 {color:hsl(184, 100%, 22%)} /* Light green */
+.button3 {color:hsl(179, 100%, 13%)} /* Dark blue */
+
+
+/* For Desktop View */
+@media screen and (min-width: 768px) {
+  .full-column {
+    flex-direction: row;
+    max-width: 100%; /* Three columns in a row for desktop view */
+  }
+}
