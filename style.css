@@ -33,7 +33,7 @@ body {
   padding: 2rem;
 }
 button{
-  border: 1px solid white;
+    border: 1px solid white;
     background: white;
     padding: 10px 25px;
     font-size: 12px;
@@ -42,6 +42,13 @@ button{
 .button1 {color:hsl(31, 77%, 52%)} /* Yellow*/
 .button2 {color:hsl(184, 100%, 22%)} /* Light green */
 .button3 {color:hsl(179, 100%, 13%)} /* Dark blue */
+
+.button1:hover,
+.button2:hover,
+.button3:hover {
+  color: white;
+  background-color: transparent;
+}
 
 
 /* For Desktop View */
